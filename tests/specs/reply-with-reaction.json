@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Reply with reaction",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "User replies to a video post with a free-text reaction"
+            }
+          }
+        ],
+        "send": {
+          "text": "Reply with reaction"
+        }
+      }
+    ]
+  }
+]
