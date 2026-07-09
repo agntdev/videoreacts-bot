@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/digest",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Enable/disable reaction digest notifications"
+            }
+          }
+        ],
+        "send": {
+          "text": "/digest"
+        }
+      }
+    ]
+  }
+]
